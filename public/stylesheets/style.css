@@ -1,0 +1,57 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+a {
+  color: #00B7FF;
+}
+article{
+  height: 430px;
+  width: 498px;
+  border: 1px solid #369;
+  float: left;
+  /*display: table;*/
+}
+nav{
+  height: 482px;
+  width: 298px;
+  border: 1px solid #369;
+  margin-left: -1px;
+  float: left;
+  /*display: table;*/
+}
+#sendbox{
+  /*width: 493px;
+  height: 44px;*/
+  width: 98.6%;
+  height: 89%;
+  resize: none;
+}
+#send{
+  margin-top: -53px;
+  border: 1px solid #369;
+  width: 498px;
+  height: 50px;
+  float: left;
+  position: relative;
+  /*display: table;*/
+}
+#sendbt{
+  cursor: pointer;
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  background: #07c;
+  height: 30px;
+  line-height: 30px;
+  width: 50px;
+  text-align: center;
+}
+#sendbt:hover{
+  background: #00B7FF;
+}
